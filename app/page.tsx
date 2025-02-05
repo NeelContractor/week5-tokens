@@ -46,7 +46,7 @@ export default function Home() {
       </div>
       <div className="w-full py-20 px-10 flex justify-center lg:px-20">
         <div className="w-full md:w-3/4 lg:w-5/6 xl:w-3/4">
-          <p className="font-thin text-lime-300 text-xl lg:text-2xl">
+          <p className="font-thin text-lime-300black text-xl lg:text-2xl">
             In the fast-evolving world of blockchain, the ability to create and manage your own tokens is a game-changer. Whether you’re a developer, entrepreneur, or innovator, our Solana Token
             Creator & Minter makes it easier than ever to bring your ideas to life. Empower your vision with a platform that’s designed to simplify the entire process, from creation to distribution.
           </p>
@@ -55,9 +55,9 @@ export default function Home() {
       <div id="how-to-use" className="w-full py-20 px-10 pt-0 flex justify-center lg:px-20">
         <div className="w-full md:w-3/4 lg:w-5/6 xl:w-3/4 ">
           <h2 className="text-5xl font-bold text-lime-300">How to Use</h2>
-          <p className="text-lg font-thin text-lime-300 mt-6 lg:text-2xl">1. Create a Token</p>
-          <p className="text-lg font-thin text-lime-300 mt-2 lg:text-2xl">2. Add Metadata (optional)</p>
-          <p className="text-lg font-thin text-lime-300 mt-2 lg:text-2xl">3. Mint newly created token to your wallet</p>
+          <p className="text-lg font-thin text-black mt-6 lg:text-2xl">1. Create a Token</p>
+          <p className="text-lg font-thin text-black mt-2 lg:text-2xl">2. Add Metadata (optional)</p>
+          <p className="text-lg font-thin text-black mt-2 lg:text-2xl">3. Mint newly created token to your wallet</p>
         </div>
       </div>
       <div className="w-full flex justify-center">
@@ -90,7 +90,7 @@ export default function Home() {
       </div>
       <div id="create-mint" className="w-full flex justify-center px-5 py-10 lg:px-20">
         <div className="rounded-2xl bg-lime-300 w-full md:w-[500px] p-5 md:p-10 relative mt-6">
-          <div className="absolute text-xs font-thin text-lime-300 -top-9 right-0">
+          <div className="absolute text-xs font-thin text-black -top-9 right-0">
             <p>* Devnet only (for now)</p>
             <p>* Phantom wallet required (for now)</p>
           </div>

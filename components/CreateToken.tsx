@@ -142,13 +142,13 @@ const CreateToken = ({
           <div className="flex flex-col gap-4 w-full">
             <div>
               <p className="text-sm text-gray-950 mb-2">Decimals *</p>
-              <Input type="number" value={decimals} onChange={(e) => setDecimals(e.target.valueAsNumber)} className="text-lime-300" />
+              <Input type="number" value={decimals} onChange={(e) => setDecimals(e.target.valueAsNumber)} className="text-black font-bold" />
             </div>
             <div>
               <div className="flex justify-between mb-2">
                 <p className="text-sm text-gray-950">Freeze Authority Public Key</p>
               </div>
-              <Input value={freezeAuthorityPublicKey} onChange={(e) => setFreezeAuthorityPublicKey(e.target.value)} className="text-lime-300" />
+              <Input value={freezeAuthorityPublicKey} onChange={(e) => setFreezeAuthorityPublicKey(e.target.value)} className="text-black font-bold" />
               <div className="flex gap-2 items-center w-full justify-end mt-2">
                 <Checkbox checked={isChecked} onCheckedChange={() => setIsChecked((prev) => !prev)} />
                 <label htmlFor="terms" className="text-sm text-gray-950">

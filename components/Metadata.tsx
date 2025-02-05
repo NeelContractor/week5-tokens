@@ -77,19 +77,19 @@ const Metadata = ({ newTokenDetails, isLoading, setIsLoading }: { newTokenDetail
       <div className="flex flex-col gap-4">
         <div>
           <p className="text-sm text-gray-950 mb-1">Token Name *</p>
-          <Input value={name} onChange={(e) => setName(e.target.value)} className="text-lime-300" />
+          <Input value={name} onChange={(e) => setName(e.target.value)} className="text-black font-bold" />
         </div>
         <div>
           <p className="text-sm text-gray-950 mb-1">Token Symbol *</p>
-          <Input value={symbol} onChange={(e) => setSymbol(e.target.value)} className="text-lime-300" placeholder="Example: SOL" />
+          <Input value={symbol} onChange={(e) => setSymbol(e.target.value)} className="text-black font-bold" placeholder="Example: SOL" />
         </div>
         <div>
           <p className="text-sm text-gray-950 mb-1">Token Description *</p>
-          <Input value={desc} onChange={(e) => setDesc(e.target.value)} className="text-lime-300" />
+          <Input value={desc} onChange={(e) => setDesc(e.target.value)} className="text-black font-bold" />
         </div>
         <div>
           <p className="text-sm text-gray-950 mb-1">JSON URI</p>
-          <Input value={jsonUri} onChange={(e) => setJsonUri(e.target.value)} className="text-lime-300" placeholder="Ex: www.example.com/dummy_name.json" />
+          <Input value={jsonUri} onChange={(e) => setJsonUri(e.target.value)} className="text-black font-bold" placeholder="Ex: www.example.com/dummy_name.json" />
 
           <CompactToolTip
             component={<p className=" w-fit text-xs underline text-black mt-0.5 cursor-pointer">Format</p>}
